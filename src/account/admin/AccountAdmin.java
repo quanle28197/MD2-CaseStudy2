@@ -12,6 +12,10 @@ public class AccountAdmin {
         this.adminPass = adminPass;
     }
 
+    public AccountAdmin() {
+
+    }
+
     public String AccountAdmin() {
         accountAccountAdminList.add(new AccountAdmin("admin1", 123));
         accountAccountAdminList.add(new AccountAdmin("admin2", 123));
